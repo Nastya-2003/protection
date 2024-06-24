@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px 200px 0px 200px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+    margin-right: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 22px;
+}
+
+a:hover {
+    color: black;
+}
+
+.greeting {
+    padding: 90px 0 0 0;
+}
+
+.aboute_me {
+    display: flex;
+    align-items: center; 
+}
+
+.aboute_me_text h1{
+    width: 100%;
+    height: 205px;
+    background-color: rgb(149, 207, 155);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 26px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+}
+
+.aboute_me_text p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.aboute_me_foto {
+    width: 45%;
+    height: auto;
+    border-radius: 250px;
+    max-width: 100%;
+}
+
+.lessons {
+    padding: 90px 0 0 0;
+}
+
+
+.lessons h1 {
+    width: 60%;
+    height: 96px;
+    background-color: rgb(149, 207, 155);
+    border-radius: 50%;
+    text-align: center;
+    align-items: center; 
+    display: flex; 
+    justify-content: center;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 26px;
+    padding: 32px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.lessons ul {
+    padding-left: 15px;
+}
+
+.lessons li {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.green {
+    color: green;
+    padding-left: 5px;
+}
+
+.foto {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.foto img {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.lessons_foto_1 {
+    z-index: 3;
+    top: 0;
+    left: 6%;
+}
+
+.lessons_foto_2 {
+    z-index: 2;
+    top: 15%;
+    left: 46%;
+}
+
+.lessons_foto_3 {
+    z-index: 0;
+    top: 88%;
+    left: 7%;
+}
+
+.rules {
+    padding-top: 400px;
+}
+
+.rule {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.rules_s {
+    flex: 1; 
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.rules h1 {
+    width: 60%;
+    height: 96px;
+    background-color: rgb(149, 207, 155);
+    border-radius: 50%;
+    text-align: center;
+    align-items: center; 
+    display: flex; 
+    justify-content: center;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 26px;
+    padding: 32px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.rules_s p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.rules_s img {
+    width: 40%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer li {
+    list-style: none;
+    display: inline;
+    margin-right: 35px;
+    color: green;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 22px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px 50px 0px 50px; 
+    }
+
+    .menu {
+        flex-direction: column; 
+    }
+
+    li {
+        margin-right: 10px;
+        margin-bottom: 10px; 
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .greeting {
+        padding: 10px 0 0 0;
+    }
+
+    .aboute_me {
+        flex-direction: column; 
+    }
+
+    .aboute_me_text h1{
+        font-size: 17px;
+        width: 100%;
+        height: 97px;
+        border-radius: 50%;
+    }
+    
+    .aboute_me_text p{
+        font-size: 12px;
+    }
+
+    .aboute_me_foto {
+        width: 70%; 
+        max-width: 100%; 
+        border-radius: 192px;
+    }
+
+    .lessons {
+        padding: 15px 0 0 0;
+    }
+
+    .lessons h1 {
+        width: 100%;
+        height: 65px;
+        font-size: 17px;
+        padding: 32px;
+        box-sizing: border-box;
+        margin-left: 0;
+        padding: 22px;
+    }
+
+    .lessons li {
+        font-family: "Comfortaa", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+
+    .foto {
+        position: relative;
+        width: 100%;
+        height: 230px;
+    }
+    
+
+    .lessons_foto_2 {
+        z-index: 2;
+        top: 7%;
+        left: 36%;
+    }
+    
+    .lessons_foto_3 {
+        z-index: 2;
+        top: 40%;
+        left: 7%;
+    }
+
+    .rules {
+        padding-top: 0;
+    }
+
+    .rule {
+        gap: 0;
+    }
+    
+    .rules_s {
+        flex: 1; 
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .rules h1 {
+        width: 100%;
+        height: 65px;
+        font-size: 17px;
+        padding: 32px;
+        box-sizing: border-box;
+        margin-left: 0;
+        padding: 22px;
+    }
+
+    .rules_s p{
+        font-size: 12px;
+    }
+
+    .footer li {
+        font-size: 10px;
+    }
+}
+
